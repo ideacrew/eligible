@@ -1,0 +1,14 @@
+AllCops:
+  NewCops: enable
+  TargetRubyVersion: 3.1
+  StyleGuideBaseURL: https://rubystyle.guide
+  DocumentationBaseURL: https://docs.rubocop.org/rubocop
+  Exclude:
+    - './config/**/*'
+    - './bin/{rails, rake}'
+  # SuggestExtensions: false
+
+Layout/LineLength:
+  Max: 120
+Style/HashSyntax:
+  EnforcedShorthandSyntax: consistent
